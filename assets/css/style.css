@@ -107,3 +107,21 @@ footer {
 a {
     color: #212529;
 }
+
+/** Contact **/
+
+.col-md-6, .col-md-12 {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #F9D0D0;
+    border-color: #c6a6a6;
+}
+
+.text-md-left {
+    text-align: left!important;
+    padding-left: 20px;
+}
