@@ -9,15 +9,19 @@ function SendMail() {
     })
 }
 
+// Get the submit button
+var submitButton = document.getElementById("submit-button");
+// Get the form element
 var form = document.getElementById("contact-form");
 
-form.addEventListener("submit", function(event) {
-    event.preventDefault();
-
+// Add a click event listener to the button
+submitButton.addEventListener("click", function() {
+    // Add the success message
     var message = document.createElement("div");
     message.innerHTML = "Your message has been successfully sent!";
     message.classList.add("success-message");
     form.appendChild(message);
-    
+
+    // Clear the form fields
     form.reset();
 });
