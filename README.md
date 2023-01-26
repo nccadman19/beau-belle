@@ -46,3 +46,11 @@ The user goals of this website are:
 2. To see who the coaches are
 3. To see what the gyms look like and what we look like as a team to entice the user to join our team 
 4. To view the talents of the team and possibly want to use us for an event 
+
+# Credits 
+
+https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
+Gallery Help 
+
+EmailJs
+https://www.youtube.com/watch?v=5EZsRnJpUNU
