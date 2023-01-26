@@ -166,3 +166,34 @@ a {
       max-width: 100%;
     }
   }
+
+/* Pricing */
+  
+  /* Create four equal columns that sits next to each other */
+  .pricing {
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 0px;
+  }
+  
+  .pricing img {
+    margin-top: 0px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .pricing {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .pricing {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
