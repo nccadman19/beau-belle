@@ -25,6 +25,8 @@ Pricing
 
 Quiz 
 
+There are so many different types of gel treatments in the world of beauty that it can be confusing to customers who are not experienced in the beauty world. This quiz aims to find the best treatment for them in a fun way. 
+
 1. A page where users can complete a quiz to see what treament would be best suited to them 
 2. The quiz will return treatment options to the user 
 3. The page will then link to the contact option for them to either call, email or use the contact form to contact the salon
@@ -50,6 +52,93 @@ The user goals of this website are:
 3. To get help with what treament service they would like if they are unsure with the gallery page and the quiz
 4. To contact the salon through various channels once they have decided what treatment option they would like 
 
+# UX
+
+## Strategy
+--------------
+
+Considering the core UX principles I first started to think about the strategy for this website and defined who the target users would be and what features/technologies they would want.
+
+Beau Belle target users are:
+
+Aged 20-60 primarily women 
+
+What these users would be looking for:
+
+Clear, concise, easy-to-read information on the pricing 
+
+Great photos of treatments that show off what the beauticians work 
+
+Help with what treatments are better for them
+
+Somewhere to contact us
+
+## Skeleton
+--------------
+
+Wireframes
+
+![Wireframe](assets/images/wireframes3.jpeg)
+![Wireframe Mobile](assets/images/wireframes4.jpg)
+
+## Surface
+--------------
+
+I chose a colour palette based around the logo colours, I put the image into a search engine and copied the colour of the lofo. I wanted this to be reflected on the website. I paired these colours with a dark grey and black font to stand out around the base colour. 
+
+I used Google fonts 'Montserrat', I felt 'Montserrat' was very easy to read and looks professional.
+
+## Features
+--------------
+
+This is a fully responsive website that was designed mobile-first as this is the most likely way it will be viewed; the website is divided into the five pages listed in the navbar. All of the headings use the font Montserrat and the body too, this consistency has been used across the website to create a coherent design. 
+
+### Navbar
+
+The navbar is comprised of a logo and navigation links to the other pages on the site.
+
+![Navbar Mockup](assets/images/navbarmockup.png)
+
+### Home
+
+The home page is made with warm and calm colours to entice customers to the website and show the calming feminine energy of the studio. It gives an overview of the salon and gives you the option to go straight to the contact page if you know what treatment you are looking to book. 
+
+![Home Mockup](assets/images/homemockup.png)
+
+### Gallery
+
+This is a gallery page of the work the beauticians have completed at the Beau Belle salon. It shows customers the quality of work provided and gives them inspiration for looks they may want to try out. 
+
+![Gallery Mockup](assets/images/gallerymockup.png)
+
+### Pricing 
+
+This page displays all of the treatment options available at the beau belle salon and their prices.
+
+![Pricing Mockup](assets/images/pricingmockup.png)
+
+### Quiz 
+
+This page is an interactive quiz for users who are unsure on what treatment they require at Beau Belle salon. There are so many different types of gel treatments in the world of beauty that it can be confusing to customers who are not experienced in the beauty world. This quiz aims to find the best treatment for them in a fun way. 
+
+![Quiz Mockup](assets/images/quizmockup.png)
+
+### Contact Us
+
+This is a contact page for people to contact us regarding further information or booking a treatment with the salon. 
+
+![Contact Us Mockup](assets/images/contactmockup.png)
+
+### Media
+
+Hero image - is designed in calm and feminine colours to create a warm welcome to customers 
+
+About - contains clear information about the team and a compeition photo to show our uniforms and success 
+
+Coaches - contains images of the coaches just below the about us section. I chose headshots of the coaches to clearly show their faces
+
+Contact section - contains a background colour that is soothing and mild. Not conspicuous, and yet does not make the page monotonous
+
 # Credits 
 
 https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
@@ -57,3 +146,7 @@ Gallery Help
 
 EmailJs
 https://www.youtube.com/watch?v=5EZsRnJpUNU
+
+## Contact
+
+Please feel free to contact me at nicolecadman@icloud.com
