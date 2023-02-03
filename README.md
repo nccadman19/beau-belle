@@ -29,7 +29,7 @@ There are so many different types of gel treatments in the world of beauty that 
 
 1. A page where users can complete a quiz to see what treament would be best suited to them 
 2. The quiz will return treatment options to the user 
-3. The page will then link to the contact option for them to either call, email or use the contact form to contact the salon
+3. The page will then let them retake the quiz or link to the contact option for them to either call, email or use the contact form to contact the salon
 
 Contact
 
@@ -133,11 +133,13 @@ This is a contact page for people to contact us regarding further information or
 
 Hero image - is designed in calm and feminine colours to create a warm welcome to customers 
 
-About - contains clear information about the team and a compeition photo to show our uniforms and success 
+Galley - contains good quality clear images of a selection of nail art that was created by the beauticians at Beau Belle Salon 
 
-Coaches - contains images of the coaches just below the about us section. I chose headshots of the coaches to clearly show their faces
+Pricing - contains 2 images that comprise of the pricing for nails and feet at the salon
 
-Contact section - contains a background colour that is soothing and mild. Not conspicuous, and yet does not make the page monotonous
+Quiz - XXX
+
+Contact section - contains a white background colour that is soothing and mild. I decided on this background colour to not distract customers from making a booking query 
 
 # Credits 
 
@@ -146,6 +148,14 @@ Gallery Help
 
 EmailJs
 https://www.youtube.com/watch?v=5EZsRnJpUNU
+
+Favicon Issue
+https://stackoverflow.com/questions/1321878/how-to-prevent-favicon-ico-requests?noredirect=1&lq=1
+
+Event Listener Error
+https://stackoverflow.com/questions/26107125/cannot-read-property-addeventlistener-of-null
+
+
 
 ## Contact
 
