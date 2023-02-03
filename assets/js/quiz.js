@@ -1,14 +1,14 @@
 window.onload=function() {
-    let question1 = document.getElementById("question1");
     let fakeTipsButton = document.getElementById("fake-tips");
     let naturalNailsButton = document.getElementById("natural-nails");
     let startButton = document.getElementById("start-button");
+    let question1 = document.getElementById("question1");
     let quiz = document.getElementById("quiz");
     let quizPage = document.getElementById("quiz-page");
     
     question1.style.display = "none";
     startButton.addEventListener("click", function() {
-        question1.style.display = "block";
+        question1.style.display = "flex";
         startButton.style.display = "none";
         quizPage.appendChild(question1);
     });
@@ -19,6 +19,7 @@ window.onload=function() {
         startButton.style.display = "none";
 
         let question2 = document.createElement("div");
+        question2.id = "question-2";
         question2.innerHTML = "Do you like a fancy design or a simple one?" +
                                 "<br><br>" +
                                 "<button id='fancy-nails'>Fancy</button>" +
@@ -52,6 +53,7 @@ window.onload=function() {
         startButton.style.display = "none";
 
         let question2 = document.createElement("div");
+        question2.id = "question-2";
         question2.innerHTML = "Are you happy with your nail length or are you trying to grow them?" +
                                 "<br><br>" +
                                 "<button id='happy-nails'>Happy</button>" +
@@ -67,6 +69,7 @@ window.onload=function() {
             startButton.style.display = "none";
 
             let question3 = document.createElement("div");
+            question3.id = "question-3";
             question3.innerHTML = "Do you like a fancy design or a simple one?" +
                                 "<br><br>" +
                                 "<button id='fancy-nails'>Fancy</button>" +
@@ -101,6 +104,7 @@ window.onload=function() {
                 startButton.style.display = "none";
 
                 let question3 = document.createElement("div");
+                question3.id = "question-3";
                 question3.innerHTML = "Do you like a fancy design or a simple one?" +
                                     "<br><br>" +
                                     "<button id='fancy-nails'>Fancy</button>" +
@@ -129,5 +133,5 @@ window.onload=function() {
                 });
             
             });
-    });
+        });
 }

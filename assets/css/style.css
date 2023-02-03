@@ -225,6 +225,10 @@ a {
   font-size: 2.5rem;
   color: #fff;
   margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
 }
 
 .btn:not(:disabled):not(.disabled) {
@@ -252,10 +256,26 @@ button {
   color: #fff;
   font-weight: 600;
   background-color: #c6a6a6;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .success-message {
   font-size: 2rem;
   color: #7d6969;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
+div#question1, div#question-2, div#question-3 {
+  font-size: 1.5rem;
+  color: #7d6969;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
