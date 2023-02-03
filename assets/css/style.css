@@ -51,7 +51,6 @@ a.nav-link {
 .jumbotron {
     padding: 2rem 1rem;
     margin-bottom: 2rem;
-    margin-left: 1rem;
     margin-top: 1rem;
     border-radius: 0.3rem;
     background-color: rgba(233, 236, 239, 0.3);
@@ -68,6 +67,13 @@ a.btn.btn-primary.btn-lg {
     color: #fff;
     background-color: #F9D0D0;
     border-color: #c6a6a6;
+}
+
+.display-4 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  color: #7d6969;
 }
 
 /** Footer **/
