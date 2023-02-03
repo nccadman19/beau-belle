@@ -245,3 +245,17 @@ a {
   cursor: not-allowed;
   transform: none;
 }
+
+button {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  font-weight: 600;
+  background-color: #c6a6a6;
+}
+
+.success-message {
+  font-size: 2rem;
+  color: #7d6969;
+  margin: 0 auto;
+}
