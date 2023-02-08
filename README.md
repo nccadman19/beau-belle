@@ -78,13 +78,19 @@ Somewhere to contact us
 
 Wireframes
 
-![Wireframe](assets/images/wireframes3.jpeg)
-![Wireframe Mobile](assets/images/wireframes4.jpg)
+![Wireframe](assets/images/readme/wireframes3.jpeg)
+![Wireframe Mobile](assets/images/readme/wireframes4.jpg)
 
 ## Surface
 --------------
 
 I chose a colour palette based around the logo colours, I put the image into a search engine and copied the colour of the lofo. I wanted this to be reflected on the website. I paired these colours with a dark grey and black font to stand out around the base colour. 
+
+### Colormind
+
+Using the colormind palette on the Beau Belle Logo I selected the colours from this palette and also darker and lighter shades of these colours to create a better contrast.
+
+![Colormind](assets/images/readme/colormind.png)
 
 I used Google fonts 'Montserrat', I felt 'Montserrat' was very easy to read and looks professional.
 
