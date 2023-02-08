@@ -123,7 +123,7 @@ a {
 
 .btn-primary {
     color: #fff;
-    background-color: #F9D0D0;
+    background-color: #FACDD0;
     border-color: #c6a6a6;
 }
 
@@ -207,13 +207,13 @@ a {
   /* Quiz */
 
 #quiz {
-  background-color: #F9D0D0;
+  background-color: #FACDD0;
   width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 80rem;
+  max-width: 100rem;
   margin: 0 auto;
 }
 
@@ -233,7 +233,6 @@ a {
   margin-bottom: 1.5rem;
   display: flex;
   justify-content: center;
-  align-items: center;
   max-width: 80rem;
 }
 
