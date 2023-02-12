@@ -158,6 +158,9 @@ https://www.youtube.com/watch?v=5EZsRnJpUNU
 Favicon Issue
 https://stackoverflow.com/questions/1321878/how-to-prevent-favicon-ico-requests?noredirect=1&lq=1
 
+Event Listener Quiz 
+https://stackoverflow.com/questions/27336182/javascript-event-listener-quiz
+
 Event Listener Error
 https://stackoverflow.com/questions/26107125/cannot-read-property-addeventlistener-of-null
 

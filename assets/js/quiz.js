@@ -33,18 +33,38 @@ window.onload=function() {
             var answer1 = document.createElement("div");
             var quiz = document.getElementById("quiz");
             question2.style.display = "none";
-            answer1.innerHTML = "You should book Design X Pro Extensions Full Nail Art";
+            answer1.innerHTML = "You should book Design X Pro Extensions Full Nail Art" +
+                                "<br></br>" +
+                                "<button id='reset-button'>Still Unsure? Try Again!</button>";
             answer1.classList.add("success-message");
             quizPage.appendChild(answer1);
+
+            let resetButton = answer1.querySelector("button");
+            resetButton.addEventListener("click", function() {
+                quizPage.removeChild(question2);
+                quizPage.removeChild(answer1);
+                question1.style.display = "none";
+                startButton.style.display = "block";
+            });
         });
 
         simpleNailsButton.addEventListener("click", function() {
             var answer1 = document.createElement("div");
             var quiz = document.getElementById("quiz");
             question2.style.display = "none";
-            answer1.innerHTML = "You should book Design X Pro Extensions Basic Nail Art";
+            answer1.innerHTML = "You should book Design X Pro Extensions Basic Nail Art" +
+                                "<br></br>" +
+                                "<button id='reset-button'>Still Unsure? Try Again!</button>";
             answer1.classList.add("success-message");
             quizPage.appendChild(answer1);
+
+            let resetButton = answer1.querySelector("button");
+            resetButton.addEventListener("click", function() {
+                quizPage.removeChild(question2);
+                quizPage.removeChild(answer1);
+                question1.style.display = "none";
+                startButton.style.display = "block";
+            });
         });
     });
 
@@ -83,18 +103,38 @@ window.onload=function() {
                 var answer1 = document.createElement("div");
                 var quiz = document.getElementById("quiz");
                 question3.style.display = "none";
-                answer1.innerHTML = "You should book Gel Polish Manicure Full Nail Art";
+                answer1.innerHTML = "You should book Gel Polish Manicure Full Nail Art" +
+                                    "<br></br>" +
+                                    "<button id='reset-button'>Still Unsure? Try Again!</button>";
                 answer1.classList.add("success-message");
                 quizPage.appendChild(answer1);
+
+                let resetButton = answer1.querySelector("button");
+                resetButton.addEventListener("click", function() {
+                    quizPage.removeChild(question3);
+                    quizPage.removeChild(answer1);
+                    question1.style.display = "none";
+                    startButton.style.display = "block";
+                });
             });
         
             simpleNailsButton.addEventListener("click", function() {
                 var answer1 = document.createElement("div");
                 var quiz = document.getElementById("quiz");
                 question3.style.display = "none";
-                answer1.innerHTML = "You should book Gel Polish Manicure Basic Nail Art";
+                answer1.innerHTML = "You should book Gel Polish Manicure Basic Nail Art" +
+                                    "<br></br>" +
+                                    "<button id='reset-button'>Still Unsure? Try Again!</button>";
                 answer1.classList.add("success-message");
                 quizPage.appendChild(answer1);
+
+                let resetButton = answer1.querySelector("button");
+                resetButton.addEventListener("click", function() {
+                    quizPage.removeChild(question3);
+                    quizPage.removeChild(answer1);
+                    question1.style.display = "none";
+                    startButton.style.display = "block";
+                });
             });
         });
 
@@ -118,18 +158,38 @@ window.onload=function() {
                     var answer1 = document.createElement("div");
                     var quiz = document.getElementById("quiz");
                     question3.style.display = "none";
-                    answer1.innerHTML = "You should book BIAB Manicure Full Nail Art";
+                    answer1.innerHTML = "You should book BIAB Manicure Full Nail Art" +
+                                        "<br></br>" +
+                                        "<button id='reset-button'>Still Unsure? Try Again!</button>";
                     answer1.classList.add("success-message");
                     quizPage.appendChild(answer1);
+
+                    let resetButton = answer1.querySelector("button");
+                    resetButton.addEventListener("click", function() {
+                        quizPage.removeChild(question3);
+                        quizPage.removeChild(answer1);
+                        question1.style.display = "none";
+                        startButton.style.display = "block";
+                    });
                 });
             
                 simpleNailsButton.addEventListener("click", function() {
                     var answer1 = document.createElement("div");
                     var quiz = document.getElementById("quiz");
                     question3.style.display = "none";
-                    answer1.innerHTML = "You should book BIAB Manicure Basic Nail Art";
+                    answer1.innerHTML = "You should book BIAB Manicure Basic Nail Art" +
+                                        "<br></br>" +
+                                        "<button id='reset-button'>Still Unsure? Try Again!</button>";
                     answer1.classList.add("success-message");
                     quizPage.appendChild(answer1);
+
+                    let resetButton = answer1.querySelector("button");
+                    resetButton.addEventListener("click", function() {
+                        quizPage.removeChild(question3);
+                        quizPage.removeChild(answer1);
+                        question1.style.display = "none";
+                        startButton.style.display = "block";
+                    });
                 });
             
             });
