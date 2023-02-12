@@ -75,9 +75,9 @@ window.onload=function() {
         let question2 = document.createElement("div");
         question2.id = "question-2";
         question2.innerHTML = "Are you happy with your nail length or are you trying to grow them?" +
-                                "<br><br>" +
-                                "<button id='happy-nails'>Happy</button>" +
-                                "<button id='grow-nails'>Grow</button>";
+                              "<br><br>" +
+                              "<button id='happy-nails'>Happy</button>" +
+                              "<button id='grow-nails'>Grow</button>";
         quizPage.appendChild(question2);
 
         let happyNailsButton = document.getElementById("happy-nails");
@@ -111,7 +111,7 @@ window.onload=function() {
 
                 let resetButton = answer1.querySelector("button");
                 resetButton.addEventListener("click", function() {
-                    quizPage.removeChild(question3);
+                    quizPage.removeChild(question2);
                     quizPage.removeChild(answer1);
                     question1.style.display = "none";
                     startButton.style.display = "block";
@@ -130,7 +130,7 @@ window.onload=function() {
 
                 let resetButton = answer1.querySelector("button");
                 resetButton.addEventListener("click", function() {
-                    quizPage.removeChild(question3);
+                    quizPage.removeChild(question2);
                     quizPage.removeChild(answer1);
                     question1.style.display = "none";
                     startButton.style.display = "block";
@@ -166,6 +166,7 @@ window.onload=function() {
 
                     let resetButton = answer1.querySelector("button");
                     resetButton.addEventListener("click", function() {
+                        quizPage.removeChild(question2);
                         quizPage.removeChild(question3);
                         quizPage.removeChild(answer1);
                         question1.style.display = "none";
@@ -185,6 +186,7 @@ window.onload=function() {
 
                     let resetButton = answer1.querySelector("button");
                     resetButton.addEventListener("click", function() {
+                        quizPage.removeChild(question2);
                         quizPage.removeChild(question3);
                         quizPage.removeChild(answer1);
                         question1.style.display = "none";
