@@ -5,29 +5,15 @@ body {
     padding: 0;
     font-family: 'Montserrat', 'Georgia', 'sans-serif';
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.5;
     color: #212529;
 }
 
 img.d-inline-block {
-    display: inline-block!important;
-    height:10rem;
-    width: auto;
-  }
-
-a.nav-link {
-    color: black;
-}
-
-.container-fluid {
-    width: 100%;
-    height: 9rem;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-bottom: 10px;
-    margin-right: auto;
-    margin-left: auto;
+  display: inline-block!important;
+  height:10rem;
+  width: auto;
 }
 
 /** Hero Image **/
@@ -296,31 +282,9 @@ div#question1, div#question-2, div#question-3 {
 /* Navbar Mobile */
 
 @media (max-width: 767px) {
-  .navbar-nav {
-      flex-direction: column;
-  }
-
-  .navbar-nav .nav-item {
-      margin: 0;
-  }
-
-  .navbar-nav .nav-link {
-      text-align: center;
-      width: 100%;
-  }
-
   img.d-inline-block {
     display: inline-block!important;
-    height: 6rem;
+    height: 7rem;
     width: auto;
-  }
-
-  .navbar-toggler {
-    padding: .25rem .75rem;
-    font-size: 1.25rem;
-    line-height: 1;
-    background-color: #F9D0D0;
-    border: 1px solid #c6a6a6;
-    border-radius: .25rem;
-  } 
+}
 }
