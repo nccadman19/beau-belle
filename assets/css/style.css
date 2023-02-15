@@ -16,6 +16,14 @@ img.d-inline-block {
   width: auto;
 }
 
+@media (max-width: 767px) {
+  img.d-inline-block {
+    display: inline-block!important;
+    height: 7rem;
+    width: auto;
+  }
+}
+
 /** Hero Image **/
 
 .hero-image {
@@ -31,6 +39,23 @@ img.d-inline-block {
     justify-content: center;
     position: relative;
 }
+
+@media (max-width: 600px){
+  h1.display-4 {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
+  p.lead {
+    font-size: 1.1rem;
+    font-weight: 300;
+  }
+
+  a.btn:not(:disabled):not(.disabled) {
+    font-size: 1.1rem;
+  }
+}
+
 
 /** Index Body **/
 
@@ -79,9 +104,9 @@ footer {
 
 .copyright {
     align-self: center;
-    margin: 0 auto;
-    text-align: center;
     font-size: 0.75rem;
+    padding-right: 20px;
+    padding-top: 15px;
 }
 
 .list-inline {
@@ -277,6 +302,24 @@ div#question1, div#question-2, div#question-3 {
   flex-direction: column;
   justify-content: center;
   font-weight: 800;
+}
+
+@media (max-width: 767px) {
+  #quiz-page {
+    padding: 2rem 2rem;
+  }
+
+  h1#quiz-header {
+    text-align: center;
+  }
+
+  div#question1, div#question-2, div#question-3 {
+    text-align: center;
+  }
+
+  .success-message {
+    text-align: center;
+}
 }
 
 /* Navbar Mobile */
