@@ -12,7 +12,7 @@ body {
 
 img.d-inline-block {
   display: inline-block!important;
-  height:10rem;
+  height: 11rem;
   width: auto;
 }
 
@@ -22,6 +22,28 @@ img.d-inline-block {
     height: 7rem;
     width: auto;
   }
+}
+
+.navbar-expand-lg {
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  height: 7rem;
+}
+
+@media (max-width: 767px) {
+  .navbar-expand-lg {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    height: 7rem;
+}
+}
+
+@media (max-width: 992px) {
+  .navbar-expand-lg {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    height: 7rem;
+}
 }
 
 /** Hero Image **/
@@ -145,6 +167,13 @@ a {
 
 .success-message {
     margin-left: 15px;
+}
+
+section.mb-4 {
+  background-image: url('/assets/images/hero-image-contact.png');
+  background-size: cover;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 /* Gallery */
@@ -322,12 +351,3 @@ div#question1, div#question-2, div#question-3 {
 }
 }
 
-/* Navbar Mobile */
-
-@media (max-width: 767px) {
-  img.d-inline-block {
-    display: inline-block!important;
-    height: 7rem;
-    width: auto;
-}
-}
