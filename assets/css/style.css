@@ -7,19 +7,18 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
 }
 
 img.d-inline-block {
   display: inline-block!important;
-  height: 11rem;
+  height: 7rem;
   width: auto;
 }
 
 @media (max-width: 767px) {
   img.d-inline-block {
     display: inline-block!important;
-    height: 7rem;
+    height: 5rem;
     width: auto;
   }
 }
@@ -38,6 +37,16 @@ img.d-inline-block {
     align-items: center;
     justify-content: center;
     position: relative;
+}
+
+p.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #463a3a;
+}
+
+p.display-5 {
+  color: #463a3a;
 }
 
 @media (max-width: 600px){
@@ -107,6 +116,7 @@ footer {
     font-size: 0.75rem;
     padding-right: 20px;
     padding-top: 15px;
+    color: #463a3a;
 }
 
 .list-inline {
@@ -116,7 +126,7 @@ footer {
 
 .social i {
     font-size: 2rem;
-    color: #212529;
+    color: #463a3a;
     margin-top: 5px;
     margin-left: 5px;
 }
