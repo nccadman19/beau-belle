@@ -16,14 +16,6 @@ img.d-inline-block {
   width: auto;
 }
 
-@media (max-width: 767px) {
-  img.d-inline-block {
-    display: inline-block!important;
-    height: 7rem;
-    width: auto;
-  }
-}
-
 /** Hero Image **/
 
 .hero-image {
@@ -38,22 +30,6 @@ img.d-inline-block {
     align-items: center;
     justify-content: center;
     position: relative;
-}
-
-@media (max-width: 600px){
-  h1.display-4 {
-    font-size: 2rem;
-    font-weight: 400;
-  }
-
-  p.lead {
-    font-size: 1.1rem;
-    font-weight: 300;
-  }
-
-  a.btn:not(:disabled):not(.disabled) {
-    font-size: 1.1rem;
-  }
 }
 
 /** Index Body **/
@@ -102,10 +78,15 @@ footer {
 }
 
 .copyright {
-  align-self: center;
-  font-size: 0.75rem;
-  padding-right: 20px;
-  padding-top: 15px;
+    align-self: center;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+.list-inline {
+    align-self: flex-end;
+    margin: 7px;
 }
 
 .social i {
@@ -139,29 +120,6 @@ a {
 
 .success-message {
     margin-left: 15px;
-}
-
-.contact {
-  height: 90vh;
-  max-width: 100%;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.background {
-  background: url('../images/hero-image-contact.jpg');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.5;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
 }
 
 /* Gallery */
@@ -321,20 +279,12 @@ div#question1, div#question-2, div#question-3 {
   font-weight: 800;
 }
 
+/* Navbar Mobile */
+
 @media (max-width: 767px) {
-  #quiz-page {
-    padding: 2rem 2rem;
-  }
-
-  h1#quiz-header {
-    text-align: center;
-  }
-
-  div#question1, div#question-2, div#question-3 {
-    text-align: center;
-  }
-
-  .success-message {
-    text-align: center;
+  img.d-inline-block {
+    display: inline-block!important;
+    height: 7rem;
+    width: auto;
 }
 }
