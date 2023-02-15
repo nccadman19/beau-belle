@@ -24,28 +24,6 @@ img.d-inline-block {
   }
 }
 
-.navbar-expand-lg {
-  flex-flow: row nowrap;
-  justify-content: flex-start;
-  height: 7rem;
-}
-
-@media (max-width: 767px) {
-  .navbar-expand-lg {
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    height: 7rem;
-}
-}
-
-@media (max-width: 992px) {
-  .navbar-expand-lg {
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    height: 7rem;
-}
-}
-
 /** Hero Image **/
 
 .hero-image {
