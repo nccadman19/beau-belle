@@ -105,6 +105,16 @@ a.btn.btn-primary.btn-lg {
   color: #7d6969;
 }
 
+@media (min-width: 992px) {
+  .col-lg-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
 /** Footer **/
 
 footer {
@@ -169,8 +179,8 @@ a {
 section.mb-4 {
   background-image: url('/assets/images/hero-image-contact.png');
   background-size: cover;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 5.5rem;
+  padding-bottom: 5.5rem;
 }
 
 /* Gallery */
@@ -244,7 +254,7 @@ section.mb-4 {
 /* Quiz */
 
 #quiz {
-  height: 90vh;
+  height: 77vh;
   max-width: 100%;
 
   background: url('../images/hero-image-quiz.jpg');
