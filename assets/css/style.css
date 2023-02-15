@@ -13,6 +13,7 @@ img.d-inline-block {
   display: inline-block!important;
   height: 7rem;
   width: auto;
+  padding-left: 1rem;
 }
 
 @media (max-width: 767px) {
@@ -21,6 +22,14 @@ img.d-inline-block {
     height: 5rem;
     width: auto;
   }
+
+  .navbar {
+    padding: 0;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    padding-right: 1rem;
+}
 }
 
 /** Hero Image **/
