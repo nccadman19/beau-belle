@@ -67,7 +67,7 @@ What these users would be looking for:
 
 Clear, concise, easy-to-read information on the pricing 
 
-Great photos of treatments that show off what the beauticians work 
+Great photos of treatments that show off the beauticians work 
 
 Help with what treatments are better for them
 
@@ -99,41 +99,45 @@ I used Google fonts 'Montserrat', I felt 'Montserrat' was very easy to read and 
 
 This is a fully responsive website that was designed mobile-first as this is the most likely way it will be viewed; the website is divided into the five pages listed in the navbar. All of the headings use the font Montserrat and the body too, this consistency has been used across the website to create a coherent design. 
 
-### Navbar
+### Navbar & Footer
 
-The navbar is comprised of a logo and navigation links to the other pages on the site.
+The navbar is comprised of a logo and navigation links to the other pages on the site. You can see how the navbar turns into a toggled dropdown menu when viewed on mobile. 
 
-![Navbar Mockup](assets/images/navbarmockup.png)
+![Navbar Mockup](assets/images/readme/mockup-iphone.png)
 
 ### Home
 
-The home page is made with warm and calm colours to entice customers to the website and show the calming feminine energy of the studio. It gives an overview of the salon and gives you the option to go straight to the contact page if you know what treatment you are looking to book. 
+The home page is made with warm and calm colours to entice customers to the website and show the calming feminine energy of the studio. It gives an overview of the salon and gives you the option to go straight to the contact page if you know what treatment you are looking to book.
 
-![Home Mockup](assets/images/homemockup.png)
+![Home Mockup](assets/images/readme/mockup-index.png)
 
 ### Gallery
 
 This is a gallery page of the work the beauticians have completed at the Beau Belle salon. It shows customers the quality of work provided and gives them inspiration for looks they may want to try out. 
 
-![Gallery Mockup](assets/images/gallerymockup.png)
+![Gallery Mockup](assets/images/readme/mockup-gallery.png)
 
 ### Pricing 
 
 This page displays all of the treatment options available at the beau belle salon and their prices.
 
-![Pricing Mockup](assets/images/pricingmockup.png)
+![Pricing Mockup](assets/images/readme/mockup-price.png)
 
 ### Quiz 
 
 This page is an interactive quiz for users who are unsure on what treatment they require at Beau Belle salon. There are so many different types of gel treatments in the world of beauty that it can be confusing to customers who are not experienced in the beauty world. This quiz aims to find the best treatment for them in a fun way. 
 
-![Quiz Mockup](assets/images/quizmockup.png)
+![Quiz Mockup](assets/images/readme/mockup-quiz.png)
+
+The quiz is compromised over several possible outcomes to ensure you book the correct treatment for your nails. 
+
+![Quiz Mockup Layout](assets/images/readme/mockup-quiz-layout.png)
 
 ### Contact Us
 
 This is a contact page for people to contact us regarding further information or booking a treatment with the salon. 
 
-![Contact Us Mockup](assets/images/contactmockup.png)
+![Contact Us Mockup](assets/images/readme/mockup-contact.png)
 
 ### Media
 
@@ -143,9 +147,9 @@ Galley - contains good quality clear images of a selection of nail art that was 
 
 Pricing - contains 2 images that comprise of the pricing for nails and feet at the salon
 
-Quiz - XXX
+Quiz - contains 1 clear image of nail art
 
-Contact section - contains a white background colour that is soothing and mild. I decided on this background colour to not distract customers from making a booking query 
+Contact section - contains a faded image to ensure clear visability of the contact information. I decided on this background to not distract customers from making a booking query 
 
 # Credits 
 
