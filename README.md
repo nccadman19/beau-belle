@@ -158,7 +158,7 @@ Contact section - contains a faded image to ensure clear visability of the conta
 
 ### Validate HTML/CSS
 
-I validated both my HTML and CSS code multiple times whilst building the website, I did this so that there were not a huge amount of errors/warnings at the final stages of development for me to deal with. This allowed me to incrementally improve my code and upon completion, there were 0 errors found.
+I validated both my HTML and CSS code multiple times whilst building the website, I did this so that there were not a huge amount of errors/warnings at the final stages of development for me to deal with. I did not add alt tags to the gallery page and this caused a few errors that were easily fixed. This allowed me to incrementally improve my code and upon completion, there were 0 errors found.
 
 ![ValidatorHTML](assets/images/validator2.jpeg)
 ![ValidatorCSS](assets/images/validator1.jpeg)
