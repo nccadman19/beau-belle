@@ -4,7 +4,7 @@
 
 <a href="#" rel="nofollow" target="_blank">Visit the website here</a>
 
-![Markups](assets/images/markup.jpg)
+![Markups](assets/images/readme/mockup-index.png)
 
 This website is made up of the following sections:
 
@@ -78,8 +78,8 @@ Somewhere to contact us
 
 Wireframes
 
-![Wireframe](assets/images/readme/wireframes3.jpeg)
-![Wireframe Mobile](assets/images/readme/wireframes4.jpg)
+![Wireframe](assets/images/readme/wireframe1.png)
+![Wireframe Mobile](assets/images/readme/wireframe2.png)
 
 ## Surface
 --------------
@@ -99,41 +99,43 @@ I used Google fonts 'Montserrat', I felt 'Montserrat' was very easy to read and 
 
 This is a fully responsive website that was designed mobile-first as this is the most likely way it will be viewed; the website is divided into the five pages listed in the navbar. All of the headings use the font Montserrat and the body too, this consistency has been used across the website to create a coherent design. 
 
-### Navbar & Footer
+## Navbar & Footer
 
 The navbar is comprised of a logo and navigation links to the other pages on the site. You can see how the navbar turns into a toggled dropdown menu when viewed on mobile. 
 
 ![Navbar Mockup](assets/images/readme/mockup-iphone.png)
 
-### Home
+## Home
 
 The home page is made with warm and calm colours to entice customers to the website and show the calming feminine energy of the studio. It gives an overview of the salon and gives you the option to go straight to the contact page if you know what treatment you are looking to book.
 
 ![Home Mockup](assets/images/readme/mockup-index.png)
 
-### Gallery
+## Gallery
 
 This is a gallery page of the work the beauticians have completed at the Beau Belle salon. It shows customers the quality of work provided and gives them inspiration for looks they may want to try out. 
 
 ![Gallery Mockup](assets/images/readme/mockup-gallery.png)
 
-### Pricing 
+## Pricing 
 
 This page displays all of the treatment options available at the beau belle salon and their prices.
 
 ![Pricing Mockup](assets/images/readme/mockup-price.png)
 
-### Quiz 
+## Quiz 
 
 This page is an interactive quiz for users who are unsure on what treatment they require at Beau Belle salon. There are so many different types of gel treatments in the world of beauty that it can be confusing to customers who are not experienced in the beauty world. This quiz aims to find the best treatment for them in a fun way. 
 
 ![Quiz Mockup](assets/images/readme/mockup-quiz.png)
 
+### Quiz Layout
+
 The quiz is compromised over several possible outcomes to ensure you book the correct treatment for your nails. 
 
 ![Quiz Mockup Layout](assets/images/readme/mockup-quiz-layout.png)
 
-### Contact Us
+## Contact Us
 
 This is a contact page for people to contact us regarding further information or booking a treatment with the salon. 
 
@@ -150,6 +152,54 @@ Pricing - contains 2 images that comprise of the pricing for nails and feet at t
 Quiz - contains 1 clear image of nail art
 
 Contact section - contains a faded image to ensure clear visability of the contact information. I decided on this background to not distract customers from making a booking query 
+
+## Functionality Testing 
+------------
+
+### Validate HTML/CSS
+
+I validated both my HTML and CSS code multiple times whilst building the website, I did this so that there were not a huge amount of errors/warnings at the final stages of development for me to deal with. This allowed me to incrementally improve my code and upon completion, there were 0 errors found.
+
+![ValidatorHTML](assets/images/validator2.jpeg)
+![ValidatorCSS](assets/images/validator1.jpeg)
+
+### Forms
+
+I have tested the form on both mobile and browser and there are no errors. The website returns to a blank contact form in case the user made a mistake or wants to make another enquiry. 
+
+The contact name and email address is a mandatory field and I can confirm with testing that you cannot submit the form without some data in the field and an @ in the email field. 
+
+### Quiz
+
+I have passed the quiz through JSLint and personally tested the site on mobile and desktop with no errors. 
+
+ADD JSLint Ingo HERE!!!!
+
+## Usability Testing 
+------------
+
+### Navigation 
+
+I tested the navigation with the test subject being a user who wants to book in a nail treatment with Beau Belle Salon for the first time but is unsure what to book. 
+
+On opening the website there is initial information on the salon with a clear button that takes you to the booking page if you were confident in the treatment you wanted to book. 
+
+The gallery page shows the skills of the nail artist at the salon clearly, it is responsive to mobile and desktop. 
+
+The pricing page has a very clear layout of the treatment options available.
+
+The quiz page functions well on mobile and desktop, it helps users by allowing them to select options they prefer and provided the perfect treatment option for them. 
+
+The contact page is clear in the navbar, you can click and get in contact with the team. Either by using the contact information provided or using the contact form that currently redirects to my email address. 
+
+### Spelling & Viewing 
+
+I have spell checked the entirety of the site and could not find any errors. 
+
+All static images have been testing on desktop and mobile with no issues (Please see bug information that was remedied at this stage).
+
+The scroll bar works correctly on mobile and desktop.
+
 
 # Credits 
 
