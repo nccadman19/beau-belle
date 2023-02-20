@@ -2,7 +2,7 @@
 
 ## Welsh Nail Salon | Situated in Newport Wales
 
-<a href="#" rel="nofollow" target="_blank">Visit the website here</a>
+<a href="https://nccadman19.github.io/beau-belle/" rel="nofollow" target="_blank">Visit the website here</a>
 
 ![Markups](assets/images/readme/mockup-index.png)
 
@@ -160,8 +160,8 @@ Contact section - contains a faded image to ensure clear visability of the conta
 
 I validated both my HTML and CSS code multiple times whilst building the website, I did this so that there were not a huge amount of errors/warnings at the final stages of development for me to deal with. I did not add alt tags to the gallery page and this caused a few errors that were easily fixed. This allowed me to incrementally improve my code and upon completion, there were 0 errors found.
 
-![ValidatorHTML](assets/images/validator2.jpeg)
-![ValidatorCSS](assets/images/validator1.jpeg)
+![ValidatorHTML](assets/images/readme/validator1.png)
+![ValidatorCSS](assets/images/readme/validator2.png)
 
 ### Forms
 
@@ -173,7 +173,11 @@ The contact name and email address is a mandatory field and I can confirm with t
 
 I have passed the quiz through JSLint and personally tested the site on mobile and desktop with no errors. 
 
-ADD JSLint Ingo HERE!!!!
+#### JSLint
+
+I put my quiz code through the testing and recevied a lot of errors to start with, most of them due to leaving spaces in the code. I removed the trailing spaces and removed the checks of spacing between characters. I then had a few warnings reading let and var that have been amended and a missing ';' at the end of the script. Updated, rechecked and now I have zero warnings, as seen below. 
+
+![JSLint Testing](assets/images/readme/jslint.png)
 
 ## Usability Testing 
 ------------
