@@ -5,7 +5,7 @@ window.onload=function() {
     let question1 = document.getElementById("question1");
     let quiz = document.getElementById("quiz");
     let quizPage = document.getElementById("quiz-page");
-    
+
     question1.style.display = "none";
     startButton.addEventListener("click", function() {
         question1.style.display = "flex";
@@ -14,7 +14,7 @@ window.onload=function() {
     });
     quiz.appendChild(quizPage);
 
-    fakeTipsButton.addEventListener("click", function() {    
+    fakeTipsButton.addEventListener("click", function() {
         question1.style.display = "none";
         startButton.style.display = "none";
 
@@ -30,8 +30,7 @@ window.onload=function() {
         let simpleNailsButton = document.getElementById("simple-nails");
 
         fancyNailsButton.addEventListener("click", function() {
-            var answer1 = document.createElement("div");
-            var quiz = document.getElementById("quiz");
+            let answer1 = document.createElement("div");
             question2.style.display = "none";
             answer1.innerHTML = "You should book Design X Pro Extensions Full Nail Art" +
                                 "<br></br>" +
@@ -49,8 +48,7 @@ window.onload=function() {
         });
 
         simpleNailsButton.addEventListener("click", function() {
-            var answer1 = document.createElement("div");
-            var quiz = document.getElementById("quiz");
+            let answer1 = document.createElement("div");
             question2.style.display = "none";
             answer1.innerHTML = "You should book Design X Pro Extensions Basic Nail Art" +
                                 "<br></br>" +
@@ -68,16 +66,16 @@ window.onload=function() {
         });
     });
 
-        naturalNailsButton.addEventListener("click", function() {
-        question1.style.display = "none";
-        startButton.style.display = "none";
+    naturalNailsButton.addEventListener("click", function() {
+    question1.style.display = "none";
+    startButton.style.display = "none";
 
         let question2 = document.createElement("div");
         question2.id = "question-2";
         question2.innerHTML = "Are you happy with your nail length or are you trying to grow them?" +
-                              "<br><br>" +
-                              "<button id='happy-nails'>Happy</button>" +
-                              "<button id='grow-nails'>Grow</button>";
+                                "<br><br>" +
+                                "<button id='happy-nails'>Happy</button>" +
+                                "<button id='grow-nails'>Grow</button>";
         quizPage.appendChild(question2);
 
         let happyNailsButton = document.getElementById("happy-nails");
@@ -95,13 +93,12 @@ window.onload=function() {
                                 "<button id='fancy-nails'>Fancy</button>" +
                                 "<button id='simple-nails'>Simple</button>";
             quizPage.appendChild(question3);
-        
+
             let fancyNailsButton = document.getElementById("fancy-nails");
             let simpleNailsButton = document.getElementById("simple-nails");
-        
+
             fancyNailsButton.addEventListener("click", function() {
-                var answer1 = document.createElement("div");
-                var quiz = document.getElementById("quiz");
+                let answer1 = document.createElement("div");
                 question3.style.display = "none";
                 answer1.innerHTML = "You should book Gel Polish Manicure Full Nail Art" +
                                     "<br></br>" +
@@ -117,10 +114,9 @@ window.onload=function() {
                     startButton.style.display = "block";
                 });
             });
-        
+
             simpleNailsButton.addEventListener("click", function() {
-                var answer1 = document.createElement("div");
-                var quiz = document.getElementById("quiz");
+                let answer1 = document.createElement("div");
                 question3.style.display = "none";
                 answer1.innerHTML = "You should book Gel Polish Manicure Basic Nail Art" +
                                     "<br></br>" +
@@ -138,62 +134,59 @@ window.onload=function() {
             });
         });
 
-            growNailsButton.addEventListener("click", function() {
-                question1.style.display = "none";
-                question2.style.display = "none";
-                startButton.style.display = "none";
+        growNailsButton.addEventListener("click", function() {
+            question1.style.display = "none";
+            question2.style.display = "none";
+            startButton.style.display = "none";
 
-                let question3 = document.createElement("div");
-                question3.id = "question-3";
-                question3.innerHTML = "Do you like a fancy design or a simple one?" +
-                                    "<br><br>" +
-                                    "<button id='fancy-nails'>Fancy</button>" +
-                                    "<button id='simple-nails'>Simple</button>";
-                quizPage.appendChild(question3);
-            
-                let fancyNailsButton = document.getElementById("fancy-nails");
-                let simpleNailsButton = document.getElementById("simple-nails");
-            
-                fancyNailsButton.addEventListener("click", function() {
-                    var answer1 = document.createElement("div");
-                    var quiz = document.getElementById("quiz");
-                    question3.style.display = "none";
-                    answer1.innerHTML = "You should book BIAB Manicure Full Nail Art" +
-                                        "<br></br>" +
-                                        "<button id='reset-button'>Still Unsure? Try Again!</button>";
-                    answer1.classList.add("success-message");
-                    quizPage.appendChild(answer1);
+            let question3 = document.createElement("div");
+            question3.id = "question-3";
+            question3.innerHTML = "Do you like a fancy design or a simple one?" +
+                                "<br><br>" +
+                                "<button id='fancy-nails'>Fancy</button>" +
+                                "<button id='simple-nails'>Simple</button>";
+            quizPage.appendChild(question3);
 
-                    let resetButton = answer1.querySelector("button");
-                    resetButton.addEventListener("click", function() {
-                        quizPage.removeChild(question2);
-                        quizPage.removeChild(question3);
-                        quizPage.removeChild(answer1);
-                        question1.style.display = "none";
-                        startButton.style.display = "block";
-                    });
+            let fancyNailsButton = document.getElementById("fancy-nails");
+            let simpleNailsButton = document.getElementById("simple-nails");
+
+            fancyNailsButton.addEventListener("click", function() {
+                let answer1 = document.createElement("div");
+                question3.style.display = "none";
+                answer1.innerHTML = "You should book BIAB Manicure Full Nail Art" +
+                                    "<br></br>" +
+                                    "<button id='reset-button'>Still Unsure? Try Again!</button>";
+                answer1.classList.add("success-message");
+                quizPage.appendChild(answer1);
+
+                let resetButton = answer1.querySelector("button");
+                resetButton.addEventListener("click", function() {
+                    quizPage.removeChild(question2);
+                    quizPage.removeChild(question3);
+                    quizPage.removeChild(answer1);
+                    question1.style.display = "none";
+                    startButton.style.display = "block";
                 });
-            
-                simpleNailsButton.addEventListener("click", function() {
-                    var answer1 = document.createElement("div");
-                    var quiz = document.getElementById("quiz");
-                    question3.style.display = "none";
-                    answer1.innerHTML = "You should book BIAB Manicure Basic Nail Art" +
-                                        "<br></br>" +
-                                        "<button id='reset-button'>Still Unsure? Try Again!</button>";
-                    answer1.classList.add("success-message");
-                    quizPage.appendChild(answer1);
+            });
 
-                    let resetButton = answer1.querySelector("button");
-                    resetButton.addEventListener("click", function() {
-                        quizPage.removeChild(question2);
-                        quizPage.removeChild(question3);
-                        quizPage.removeChild(answer1);
-                        question1.style.display = "none";
-                        startButton.style.display = "block";
-                    });
+            simpleNailsButton.addEventListener("click", function() {
+                let answer1 = document.createElement("div");
+                question3.style.display = "none";
+                answer1.innerHTML = "You should book BIAB Manicure Basic Nail Art" +
+                                    "<br></br>" +
+                                    "<button id='reset-button'>Still Unsure? Try Again!</button>";
+                answer1.classList.add("success-message");
+                quizPage.appendChild(answer1);
+
+                let resetButton = answer1.querySelector("button");
+                resetButton.addEventListener("click", function() {
+                    quizPage.removeChild(question2);
+                    quizPage.removeChild(question3);
+                    quizPage.removeChild(answer1);
+                    question1.style.display = "none";
+                    startButton.style.display = "block";
                 });
-            
             });
         });
-}
+    });
+};

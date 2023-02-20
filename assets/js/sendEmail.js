@@ -19,5 +19,5 @@ function SendMail() {
         message.classList.add("success-message");
         form.appendChild(message);
         document.getElementById("contact-form").reset();
-    })
+    });
 }
