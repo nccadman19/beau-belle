@@ -1,4 +1,4 @@
-function SendMail() {
+function sendMail() {
     var name = document.getElementById("name").value;
     var email = document.getElementById("emailaddress").value;
     var message = document.getElementById("message").value;
@@ -11,7 +11,7 @@ function SendMail() {
         from_name : name,
         from_email : email,
         message: message
-    }
+    };
     emailjs.send("service_af0lief", "template_52av2hc", params).then(function (res) {
         var message = document.createElement("div");
         var form = document.getElementById("contact-form");
