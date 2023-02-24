@@ -205,6 +205,32 @@ I did not add alt tags to the gallery page and this caused a few errors that wer
 ![ValidatorCSS](assets/images/readme/validator2.png)
 ![JSLint Testing](assets/images/readme/jslint.png)
 
+### Compatibility Testing 
+
+The website was tested on the following browsers:
+
+* Google Chrome
+* Safari 
+* Microsoft Egde
+
+The site worked well across all browsers and discrepancies were not found.
+
+The website was tested on the following devices:
+* iPhone SE
+* iPhone XR
+* iPhone 12 Pro
+* Pixel 5
+* Samsung Galaxy S8+
+* Samsung Galaxy S20 Ultra
+* iPad Air
+* iPad Mini
+* Surface Pro 7
+* Surface Duo
+* Galaxy Fold
+* Samsung Galaxy A51
+* Nest Hub
+* Nest Hub Max
+
 ### Resolved Bugs 
 
 I did not add alt tags to the gallery page and this caused a few errors that were easily fixed. This allowed me to incrementally improve my code and upon completion, there were 0 errors found.
