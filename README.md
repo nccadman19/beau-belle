@@ -237,6 +237,8 @@ I did not add alt tags to the gallery page and this caused a few errors that wer
 
 I put my quiz code through the testing and recevied a lot of errors to start with, most of them due to leaving spaces in the code. I removed the trailing spaces and removed the checks of spacing between characters. I then had a few warnings reading let and var that have been amended and a missing ';' at the end of the script. Updated, rechecked and now I have zero warnings, as seen below. 
 
+iPad air compatibility not user friendly, expanded the hero images on pages that contained them to rectify this with a media query. 
+
 ### Unresolved Bugs
 
 2 errors in the contact section on JSLint as follows:
@@ -263,6 +265,12 @@ The quiz page functions well on mobile and desktop, it helps users by allowing t
 
 The contact page is clear in the navbar, you can click and get in contact with the team. Either by using the contact information provided or using the contact form that currently redirects to my email address. 
 
+### Accessibility
+
+Accessibility tested using Lighthouse (Google Chrome Developer Tool)
+
+
+
 # Credits 
 
 https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
@@ -282,6 +290,9 @@ https://stackoverflow.com/questions/26107125/cannot-read-property-addeventlisten
 
 Base Point of Quiz
 https://stackoverflow.com/questions/27336182/javascript-event-listener-quiz
+
+README accessibility & table used as a template
+https://github.com/FlashDrag/barber-shop/blob/master/documentation/TESTING.md 
 
 
 ## Contact
