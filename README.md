@@ -1,6 +1,9 @@
 # Beau Belle | Nail Salon
 
 ## Welsh Nail Salon | Situated in Newport Wales
+[![Forks][forks-shield]][forks-url]
+[![Issues][issues-shield]][issues-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <a href="https://nccadman19.github.io/beau-belle/" rel="nofollow" target="_blank">Visit the website here</a>
 
@@ -157,12 +160,15 @@ Contact section - contains a faded image to ensure clear visability of the conta
 ------------
 ### Responsiveness 
 
+These tests have been completed on mobile and desktop. 
+
 | Page | Test | Result |
 | --------------- | --------------- | --------------- |
 | Website | Navbar | No Issues |
 | Website | Footer | No Issues |
 | Website | Logo Link to Homepage | No Issues |
 | Website | Menu Collapses on Smaller Screen | No Issues |
+| Website | Spelling & Viewing | No Issues |
 | Index | Page Responsiveness | No Issues |
 | Index | Navigation Links Correctly | No Issues |
 | Gallery | Page Responsiveness | No Issues |
@@ -173,11 +179,12 @@ Contact section - contains a faded image to ensure clear visability of the conta
 | Quiz | Quiz Functions on Subsequent Runthrough | Current Bug |
 | Contact | Page Responsiveness | No Issues |
 | Contact | Contact Form Submits | No Issues |
+| Contact | Contact Form Clears | No Issues |
 | Contact | Data Returns | No Issues |
 
-### Validate HTML/CSS
+### Testing
 
-I validated both my HTML and CSS code multiple times whilst building the website, I did this so that there were not a huge amount of errors/warnings at the final stages of development for me to deal with. I did not add alt tags to the gallery page and this caused a few errors that were easily fixed. This allowed me to incrementally improve my code and upon completion, there were 0 errors found.
+I did not add alt tags to the gallery page and this caused a few errors that were easily fixed. This allowed me to incrementally improve my code and upon completion, there were 0 errors found.
 
 | Page | Test | Result |
 | --------------- | --------------- | --------------- |
@@ -189,27 +196,29 @@ I validated both my HTML and CSS code multiple times whilst building the website
 | Pricing | Validator CSS | 0 Errors |
 | Quiz | Validator HTML | 0 Errors |
 | Quiz | Validator CSS | 0 Errors |
+| Quiz | JSLint | 0 Errors |
 | Contact | Validator HTML| 0 Errors |
 | Contact | Validator CSS | 0 Errors |
+| Contact | JSHint | 2 Errors |
 ------------
 ![ValidatorHTML](assets/images/readme/validator1.png)
 ![ValidatorCSS](assets/images/readme/validator2.png)
+![JSLint Testing](assets/images/readme/jslint.png)
 
-### Forms
+### Resolved Bugs 
 
-I have tested the form on both mobile and browser and there are no errors. The website returns to a blank contact form in case the user made a mistake or wants to make another enquiry. 
-
-The contact name and email address is a mandatory field and I can confirm with testing that you cannot submit the form without some data in the field and an @ in the email field. 
-
-### Quiz
-
-I have passed the quiz through JSLint and personally tested the site on mobile and desktop with no errors. 
-
-#### JSLint
+I did not add alt tags to the gallery page and this caused a few errors that were easily fixed. This allowed me to incrementally improve my code and upon completion, there were 0 errors found.
 
 I put my quiz code through the testing and recevied a lot of errors to start with, most of them due to leaving spaces in the code. I removed the trailing spaces and removed the checks of spacing between characters. I then had a few warnings reading let and var that have been amended and a missing ';' at the end of the script. Updated, rechecked and now I have zero warnings, as seen below. 
 
-![JSLint Testing](assets/images/readme/jslint.png)
+### Unresolved Bugs
+
+2 errors in the contact section on JSLint as follows:
+
+* One undefined variable: Line 15	emailjs
+* One unused variable: Line 1	sendMail
+
+These are both being used in the contact.html but are not visible in this javascript code. 
 
 ## Usability Testing 
 ------------
@@ -227,15 +236,6 @@ The pricing page has a very clear layout of the treatment options available.
 The quiz page functions well on mobile and desktop, it helps users by allowing them to select options they prefer and provided the perfect treatment option for them. 
 
 The contact page is clear in the navbar, you can click and get in contact with the team. Either by using the contact information provided or using the contact form that currently redirects to my email address. 
-
-### Spelling & Viewing 
-
-I have spell checked the entirety of the site and could not find any errors. 
-
-All static images have been testing on desktop and mobile with no issues (Please see bug information that was remedied at this stage).
-
-The scroll bar works correctly on mobile and desktop.
-
 
 # Credits 
 
@@ -261,3 +261,13 @@ https://stackoverflow.com/questions/27336182/javascript-event-listener-quiz
 ## Contact
 
 Please feel free to contact me at nicolecadman@icloud.com
+
+
+<!-- Links & Images --->
+
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/nccadman19/beau-belle/pulse
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/nccadman19/beau-belle/issues
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://uk.linkedin.com/in/nicole-cadman-69a606230
