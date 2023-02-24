@@ -322,6 +322,14 @@ section.mb-4 {
   background-color: #c6a6a6;
 }
 
+button:hover {
+  cursor: pointer;
+  transition: transform 150ms;
+  transform: scale(1.03);
+  border: white;
+  border-radius: 3px;
+}
+
 .btn:hover {
   cursor: pointer;
   transition: transform 150ms;
@@ -342,6 +350,8 @@ button {
   margin-top: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;
+  border: white;
+  border-radius: 3px;
 }
 
 .success-message {
@@ -352,6 +362,7 @@ button {
   flex-direction: column;
   justify-content: center;
   padding-left: 3vh;
+  text-align: center;
 }
 
 div#question1, div#question-2, div#question-3 {
@@ -362,6 +373,7 @@ div#question1, div#question-2, div#question-3 {
   flex-direction: column;
   justify-content: center;
   font-weight: 800;
+  text-align: center;
 }
 
 @media (max-width: 767px) {
