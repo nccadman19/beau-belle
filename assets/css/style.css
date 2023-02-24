@@ -328,6 +328,7 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-left: 3vh;
 }
 
 div#question1, div#question-2, div#question-3 {
