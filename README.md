@@ -11,22 +11,22 @@
 
 This website is made up of the following sections:
 
-Home
+### Home
 
 1. Navbar with logo, name of nail salon and nav bar links to other pages
 2. A paragraph about the nail salon
 3. Footer with copyright and social media links
 
-Gallery
+### Gallery
 
 1. A gallery of images of previous nail art completed by the beau belle salon
 2. This page will give inspiration images to people wanting to get their nails done
 
-Pricing 
+### Pricing 
 
 1. A pdf document with a breakdown on pricing for the nail services provided by beau belle
 
-Quiz 
+### Quiz 
 
 There are so many different types of gel treatments in the world of beauty that can be confusing to customers who are not experienced. This quiz aims to find the best treatment for them in a fun way. 
 
@@ -34,7 +34,7 @@ There are so many different types of gel treatments in the world of beauty that 
 2. The quiz will return treatment options to the user 
 3. The page will then let them retake the quiz or link to the contact option for them to either call, email or use the contact form to contact the salon
 
-Contact
+### Contact
 
 1. A contact form for people to contact the salon to query any of the services 
 2. A place where people can request to book with the salon if they don't want to call and book an appointment 
@@ -54,6 +54,13 @@ The user goals of this website are:
 2. To view the pricing of the treaments 
 3. To get help with what treament service they would like if they are unsure with the gallery page and the quiz
 4. To contact the salon through various channels once they have decided what treatment option they would like 
+
+## Built With 
+
+* Bootstrap
+* JQuery
+* EmailJS
+
 
 # UX
 
@@ -204,6 +211,7 @@ I did not add alt tags to the gallery page and this caused a few errors that wer
 ![ValidatorHTML](assets/images/readme/validator1.png)
 ![ValidatorCSS](assets/images/readme/validator2.png)
 ![JSLint Testing](assets/images/readme/jslint.png)
+![JSHint Testing](assets/images/readme/XXX) 
 
 ### Compatibility Testing 
 
@@ -233,11 +241,13 @@ The website was tested on the following devices:
 
 ### Resolved Bugs 
 
-I did not add alt tags to the gallery page and this caused a few errors that were easily fixed. This allowed me to incrementally improve my code and upon completion, there were 0 errors found.
-
-I put my quiz code through the testing and recevied a lot of errors to start with, most of them due to leaving spaces in the code. I removed the trailing spaces and removed the checks of spacing between characters. I then had a few warnings reading let and var that have been amended and a missing ';' at the end of the script. Updated, rechecked and now I have zero warnings, as seen below. 
-
-iPad air compatibility not user friendly, expanded the hero images on pages that contained them to rectify this with a media query. 
+| Issue | Fix | 
+| --------------- | --------------- | 
+| Alt Tags not added to the gallery page | This error was easilt fixed by adding alt tags | 
+| Spacing errors in code | Removed the checks of spacing between characters as unnecessary | 
+| Var errors | Replaced var errors with let which corrected this error | 
+| Missing ; | ; added to places where it was supposed to be | 
+| iPad Air incompatibility | Expanded the hero images on pages that contained them to rectify this with a media query | 
 
 ### Unresolved Bugs
 
