@@ -269,7 +269,30 @@ The contact page is clear in the navbar, you can click and get in contact with t
 
 Accessibility tested using Lighthouse (Google Chrome Developer Tool)
 
+#### Index Page
+Desktop          |  Mobile
+:-------------------------:|:-------------------------:
+![Index Page Lighthouse Desktop](https://...Dark.png)  |  ![Index Page Lighthouse Mobile](https://...Ocean.png)
 
+#### Gallery Page
+Desktop          |  Mobile
+:-------------------------:|:-------------------------:
+![Gallery Page Lighthouse Desktop](https://...Dark.png)  |  ![Gallery Page Lighthouse Mobile](https://...Ocean.png)
+
+#### Pricing Page
+Desktop          |  Mobile
+:-------------------------:|:-------------------------:
+![Pricing Page Lighthouse Desktop](https://...Dark.png)  |  ![Pricing Page Lighthouse Mobile](https://...Ocean.png)
+
+#### Quiz Page
+Desktop          |  Mobile
+:-------------------------:|:-------------------------:
+![Quiz Page Lighthouse Desktop](https://...Dark.png)  |  ![Quiz Page Lighthouse Mobile](https://...Ocean.png)
+
+#### Contact Page
+Desktop          |  Mobile
+:-------------------------:|:-------------------------:
+![Contact Page Lighthouse Desktop](https://...Dark.png)  |  ![Contact Page Lighthouse Mobile](https://...Ocean.png)
 
 # Credits 
 
