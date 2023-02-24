@@ -25,7 +25,7 @@ Pricing
 
 Quiz 
 
-There are so many different types of gel treatments in the world of beauty that it can be confusing to customers who are not experienced in the beauty world. This quiz aims to find the best treatment for them in a fun way. 
+There are so many different types of gel treatments in the world of beauty that can be confusing to customers who are not experienced. This quiz aims to find the best treatment for them in a fun way. 
 
 1. A page where users can complete a quiz to see what treament would be best suited to them 
 2. The quiz will return treatment options to the user 
@@ -155,11 +155,43 @@ Contact section - contains a faded image to ensure clear visability of the conta
 
 ## Functionality Testing 
 ------------
+### Responsiveness 
+
+| Page | Test | Result |
+| --------------- | --------------- | --------------- |
+| Website | Navbar | No Issues |
+| Website | Footer | No Issues |
+| Website | Logo Link to Homepage | No Issues |
+| Website | Menu Collapses on Smaller Screen | No Issues |
+| Index | Page Responsiveness | No Issues |
+| Index | Navigation Links Correctly | No Issues |
+| Gallery | Page Responsiveness | No Issues |
+| Gallery | Image Grid Responsiveness | No Issues |
+| Pricing | Image Grid Responsiveness | No Issues |
+| Quiz | Page Responsiveness | No Issues |
+| Quiz | Quiz Functions on One Runthrough | No Issues |
+| Quiz | Quiz Functions on Subsequent Runthrough | Current Bug |
+| Contact | Page Responsiveness | No Issues |
+| Contact | Contact Form Submits | No Issues |
+| Contact | Data Returns | No Issues |
 
 ### Validate HTML/CSS
 
 I validated both my HTML and CSS code multiple times whilst building the website, I did this so that there were not a huge amount of errors/warnings at the final stages of development for me to deal with. I did not add alt tags to the gallery page and this caused a few errors that were easily fixed. This allowed me to incrementally improve my code and upon completion, there were 0 errors found.
 
+| Page | Test | Result |
+| --------------- | --------------- | --------------- |
+| Index| Validator HTML | 0 Errors |
+| Index | Validator CSS | 0 Errors |
+| Gallery | Validator HTML | 0 Errors |
+| Gallery | Validator CSS | 0 Errors |
+| Pricing | Validator HTML| 0 Errors |
+| Pricing | Validator CSS | 0 Errors |
+| Quiz | Validator HTML | 0 Errors |
+| Quiz | Validator CSS | 0 Errors |
+| Contact | Validator HTML| 0 Errors |
+| Contact | Validator CSS | 0 Errors |
+------------
 ![ValidatorHTML](assets/images/readme/validator1.png)
 ![ValidatorCSS](assets/images/readme/validator2.png)
 
