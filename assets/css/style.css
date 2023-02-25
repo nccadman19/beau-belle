@@ -93,7 +93,7 @@ a.btn.btn-primary.btn-lg:hover {
   }
 
   section.mb-4 {
-    background-image: url('/assets/images/hero-image-contact.jpg');
+    background-image: url('/assets/images/hero-image-contact.webp');
     background-size: cover;
     padding-top: 5.5rem;
     padding-bottom: 5.5rem;
@@ -216,7 +216,7 @@ a {
 }
 
 section.mb-4 {
-  background-image: url('/assets/images/hero-image-contact.jpg');
+  background-image: url('/assets/images/hero-image-contact.webp');
   background-size: cover;
   padding-top: 5.5rem;
   padding-bottom: 5.5rem;
