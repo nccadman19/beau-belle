@@ -60,7 +60,8 @@ The user goals of this website are:
 * Bootstrap
 * JQuery
 * EmailJS
-
+* Favicon
+* Google Fonts
 
 # UX
 
@@ -248,6 +249,7 @@ The website was tested on the following devices:
 | Var errors | Replaced var errors with let which corrected this error | 
 | Missing ; | ; added to places where it was supposed to be | 
 | iPad Air incompatibility | Expanded the hero images on pages that contained them to rectify this with a media query | 
+| Buttons on quiz had no feedback | Added the same transition as the start button to subsequent questions | 
 
 ### Unresolved Bugs
 
@@ -306,8 +308,8 @@ Desktop          |  Mobile
 
 # Credits 
 
-https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
 Gallery Help 
+https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
 
 EmailJs
 https://www.youtube.com/watch?v=5EZsRnJpUNU
@@ -326,6 +328,9 @@ https://stackoverflow.com/questions/27336182/javascript-event-listener-quiz
 
 README accessibility & table used as a template
 https://github.com/FlashDrag/barber-shop/blob/master/documentation/TESTING.md 
+
+README template
+https://github.com/othneildrew/Best-README-Template
 
 
 ## Contact
