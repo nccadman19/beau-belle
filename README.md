@@ -1,8 +1,8 @@
 # Beau Belle | Nail Salon
 
 ## Welsh Nail Salon | Situated in Newport Wales
-[![Forks][forks-shield]][forks-url]
 [![Issues][issues-shield]][issues-url]
+[![ClosedIssues][closed-shield]][closed-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <a href="https://nccadman19.github.io/beau-belle/" rel="nofollow" target="_blank">Visit the website here</a>
@@ -340,9 +340,9 @@ Please feel free to contact me at nicolecadman@icloud.com
 
 <!-- Links & Images --->
 
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/nccadman19/beau-belle/pulse
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/badge/ISSUES-0%20OPEN-yellow?style=for-the-badge&logo=closed
 [issues-url]: https://github.com/nccadman19/beau-belle/issues
+[closed-shield]: https://img.shields.io/badge/CLOSED%20ISSUES-3%20CLOSED-blue?style=for-the-badge&logo=closed
+[closed-url]: https://github.com/nccadman19/beau-belle/issues?q=is%3Aissue+is%3Aclosed
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://uk.linkedin.com/in/nicole-cadman-69a606230
