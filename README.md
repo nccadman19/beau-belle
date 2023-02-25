@@ -1,11 +1,11 @@
 # Beau Belle | Nail Salon
 
 ## Welsh Nail Salon | Situated in Newport Wales
-[![Issues][issues-shield]][issues-url]
-[![ClosedIssues][closed-shield]][closed-url]
+-------
+[![VisitWebsite][website-shield]][website-url]&nbsp;&nbsp;
+[![Issues][issues-shield]][issues-url]&nbsp;&nbsp;
+[![ClosedIssues][closed-shield]][closed-url]&nbsp;&nbsp;
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
-<a href="https://nccadman19.github.io/beau-belle/" rel="nofollow" target="_blank">Visit the website here</a>
 
 ![Markups](assets/images/readme/mockup-index.png)
 
@@ -348,3 +348,5 @@ Please feel free to contact me at nicolecadman@icloud.com
 [closed-url]: https://github.com/nccadman19/beau-belle/issues?q=is%3Aissue+is%3Aclosed
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://uk.linkedin.com/in/nicole-cadman-69a606230
+[website-shield]: https://img.shields.io/badge/VISIT%20WEBSITE-HERE-green?style=for-the-badge&logo=closed
+[website-url]: https://nccadman19.github.io/beau-belle/
