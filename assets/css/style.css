@@ -20,7 +20,7 @@ img.d-inline-block {
   img.d-inline-block {
     display: inline-block!important;
     height: 5rem;
-    width: auto;
+    width: 11rem;
   }
 
   .navbar {
