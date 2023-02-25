@@ -9,68 +9,23 @@
 
 ![Markups](assets/images/readme/mockup-index.png)
 
-This website is made up of the following sections:
+## Project Goals
 
-### Home
-
-1. Navbar with logo, name of nail salon and nav bar links to other pages
-2. A paragraph about the nail salon
-3. Footer with copyright and social media links
-
-### Gallery
-
-1. A gallery of images of previous nail art completed by the beau belle salon
-2. This page will give inspiration images to people wanting to get their nails done
-
-### Pricing 
-
-1. A pdf document with a breakdown of pricing for the nail services provided by beau belle
-
-### Quiz 
-
-There are so many different types of gel treatments in the world of beauty that can be confusing to customers who are not experienced. This quiz aims to find the best treatment for them in a fun way. 
-
-1. A page where users can complete a quiz to see what treament would be best suited to them 
-2. The quiz will return treatment options to the user 
-3. The page will then let them retake the quiz or link to the contact option for them to either call, email or use the contact form to contact the salon
-
-### Contact
-
-1. A contact form for people to contact the salon to query any of the services 
-2. A place where people can request to book with the salon if they don't want to call and book an appointment 
-3. The contact number and email of the salon will also be available here for customers to book an appointment
-
-### Goals
-
-My business goals for this website are:
+### Business Goals
 
 1. To attract customers to book an appointment at the salon
 2. To give customers inspiration on nail art designs through the gallery page
 3. To help customers decide what treatment is best for them 
 4. To give them the contact information of the salon
 
-The user goals of this website are:
+### User Goals
 
 1. To be able to learn more about the salon
 2. To view the pricing of the treaments 
 3. To get help with what treament service they would like if they are unsure with the gallery page and the quiz
 4. To contact the salon through various channels once they have decided what treatment option they would like 
 
-## Built With 
-
-![Bootstrap][bootstrap-shield]<br>
-![JQuery][jquery-shield]<br>
-![GoogleAPI][google-shield]<br>
-![FontAwesome][fonts-shield]<br>
-![GoogleFonts][googlefont-shield]<br>
-![Photoshop][photo-shield]<br>
-![Dreamweaver][dream-shield]<br>
-![CSS][css-shield]<br>
-![HTML][html-shield]<br>
-![Javascript][javascript-shield]<br>
-![Favicon][favicon-shield]<br>
-
-# UX
+# User Experience UX
 
 ## Strategy
 --------------
@@ -91,7 +46,7 @@ Help with what treatments are better for them
 
 Somewhere to contact us
 
-## Skeleton
+## Wireframes
 --------------
 
 Wireframes
@@ -127,11 +82,22 @@ The navbar is comprised of a logo and navigation links to the other pages on the
 
 The home page is made with warm and calm colours to entice customers to the website and show the calming feminine energy of the studio. It gives an overview of the salon and gives you the option to go straight to the contact page if you know what treatment you are looking to book.
 
+Features: 
+
+1. Navbar with logo, name of nail salon and nav bar links to other pages
+2. A paragraph about the nail salon
+3. Footer with copyright and social media links
+
 ![Home Mockup](assets/images/readme/mockup-index.png)
 
 ## Gallery
 
 This is a gallery page of the work the beauticians have completed at the Beau Belle salon. It shows customers the quality of work provided and gives them inspiration for looks they may want to try out. 
+
+Features:
+
+1. A gallery of images of previous nail art completed by the beau belle salon
+2. This page will give inspiration images to people wanting to get their nails done
 
 ![Gallery Mockup](assets/images/readme/mockup-gallery.png)
 
@@ -139,11 +105,21 @@ This is a gallery page of the work the beauticians have completed at the Beau Be
 
 This page displays all of the treatment options available at the beau belle salon and their prices.
 
+Features:
+
+1. A pdf document with a breakdown of pricing for the nail services provided by beau belle
+
 ![Pricing Mockup](assets/images/readme/mockup-price.png)
 
 ## Quiz 
 
 This page is an interactive quiz for users who are unsure on what treatment they require at Beau Belle salon. There are so many different types of gel treatments in the world of beauty that it can be confusing to customers who are not experienced in the beauty world. This quiz aims to find the best treatment for them in a fun way. 
+
+Features:
+
+1. A page where users can complete a quiz to see what treament would be best suited to them 
+2. The quiz will return treatment options to the user 
+3. The page will then let them retake the quiz or link to the contact option for them to either call, email or use the contact form to contact the salon
 
 ![Quiz Mockup](assets/images/readme/mockup-quiz.png)
 
@@ -157,9 +133,15 @@ The quiz is compromised over several possible outcomes to ensure you book the co
 
 This is a contact page for people to contact us regarding further information or booking a treatment with the salon. 
 
+Features:
+
+1. A contact form for people to contact the salon to query any of the services 
+2. A place where people can request to book with the salon if they don't want to call and book an appointment 
+3. The contact number and email of the salon will also be available here for customers to book an appointment
+
 ![Contact Us Mockup](assets/images/readme/mockup-contact.png)
 
-## Functionality Testing 
+## Testing 
 ------------
 ### Responsiveness 
 
@@ -185,7 +167,7 @@ These tests have been completed on mobile and desktop.
 | Contact | Contact Form Clears | No Issues |
 | Contact | Data Returns | No Issues |
 
-### Testing
+### Functionality Testing
 
 I did not add alt tags to the gallery page and this caused a few errors that were easily fixed. This allowed me to incrementally improve my code and upon completion, there were 0 errors found.
 
@@ -245,6 +227,7 @@ The website was tested on the following devices:
 | Missing ; | ; added to places where it was supposed to be | 
 | iPad Air incompatibility | Expanded the hero images on pages that contained them to rectify this with a media query | 
 | Buttons on quiz had no feedback | Added the same transition as the start button to subsequent questions | 
+| Contact page image not loading | Image path incorrect, updated and now working | 
 
 ### Unresolved Bugs
 
@@ -279,61 +262,85 @@ Accessibility tested using Lighthouse (Google Chrome Developer Tool)
 #### Index Page
 Desktop          |  Mobile
 :-------------------------:|:-------------------------:
-![Index Page Lighthouse Desktop](https://...Dark.png)  |  ![Index Page Lighthouse Mobile](https://...Ocean.png)
+![Index Page Lighthouse Desktop](assets/images/readme/lighthouse/index-desktop.png)  |  ![Index Page Lighthouse Mobile](assets/images/readme/lighthouse/index-mobile.png)
 
 #### Gallery Page
 Desktop          |  Mobile
 :-------------------------:|:-------------------------:
-![Gallery Page Lighthouse Desktop](https://...Dark.png)  |  ![Gallery Page Lighthouse Mobile](https://...Ocean.png)
+![Gallery Page Lighthouse Desktop](assets/images/readme/lighthouse/gallery-desktop.png)  |  ![Index Page Lighthouse Mobile](assets/images/readme/lighthouse/gallery-mobile.png)
 
 #### Pricing Page
 Desktop          |  Mobile
 :-------------------------:|:-------------------------:
-![Pricing Page Lighthouse Desktop](https://...Dark.png)  |  ![Pricing Page Lighthouse Mobile](https://...Ocean.png)
+![Pricing Page Lighthouse Desktop](assets/images/readme/lighthouse/pricing-desktop.png)  |  ![Index Page Lighthouse Mobile](assets/images/readme/lighthouse/pricing-mobile.png)
 
 #### Quiz Page
 Desktop          |  Mobile
 :-------------------------:|:-------------------------:
-![Quiz Page Lighthouse Desktop](https://...Dark.png)  |  ![Quiz Page Lighthouse Mobile](https://...Ocean.png)
+![Pricing Page Lighthouse Desktop](assets/images/readme/lighthouse/quiz-desktop.png)  |  ![Index Page Lighthouse Mobile](assets/images/readme/lighthouse/quiz-mobile.png)
 
 #### Contact Page
 Desktop          |  Mobile
 :-------------------------:|:-------------------------:
-![Contact Page Lighthouse Desktop](https://...Dark.png)  |  ![Contact Page Lighthouse Mobile](https://...Ocean.png)
+![Pricing Page Lighthouse Desktop](assets/images/readme/lighthouse/contact-desktop.png)  |  ![Index Page Lighthouse Mobile](assets/images/readme/lighthouse/contact-mobile.png)
 
-# Credits 
+# Github Deployment
 
-Gallery Help 
-https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
+## Preparation
 
-EmailJs
-https://www.youtube.com/watch?v=5EZsRnJpUNU
+* To prepare for using GitHub, you can either copy or clone the repository for direct deployment. 
+* To get started, you'll need a free GitHub account, a free EmailJS account and preferably some kind of image editor.
 
-Favicon Issue
-https://stackoverflow.com/questions/1321878/how-to-prevent-favicon-ico-requests?noredirect=1&lq=1
+## Instructions
 
-Event Listener Quiz 
-https://stackoverflow.com/questions/27336182/javascript-event-listener-quiz
+1. To set up your repository on GitHub, log in to your account and navigate to https://github.com/nccadman19/beau-belle.
+2.  You can either create your own repository and copy or clone it, or you can fork the existing repository.
+3. Use the git add, git commit, and git push commands to upload your files to the repository.
+4. By default, GitHub Pages updates from the master branch. To make your website live, go to the Settings page of the repository and scroll down to the GitHub Pages section.
+5. Select the Master Branch as the source and confirm your selection. After a minute or two, your website should be live and ready to view.
+6. You can see an example of this by visiting my own website. https://nccadman19.github.io/beau-belle/index.html 
 
-Event Listener Error
-https://stackoverflow.com/questions/26107125/cannot-read-property-addeventlistener-of-null
+### Installation
 
-Base Point of Quiz
-https://stackoverflow.com/questions/27336182/javascript-event-listener-quiz
+A guide on how to setup and link the external services, google API for email: 
+https://developers.google.com/gmail/api/quickstart/js
 
-README accessibility & table used as a template
-https://github.com/FlashDrag/barber-shop/blob/master/documentation/TESTING.md 
+# Acknowledgements 
 
-README template
-https://github.com/othneildrew/Best-README-Template
+## Built With 
 
-Lazy Loading Template
-https://stackoverflow.com/questions/52682522/how-to-lazy-load-component-and-template
+![Bootstrap][bootstrap-shield]<br>
+![JQuery][jquery-shield]<br>
+![GoogleAPI][google-shield]<br>
+![FontAwesome][fonts-shield]<br>
+![GoogleFonts][googlefont-shield]<br>
+![Photoshop][photo-shield]<br>
+![Dreamweaver][dream-shield]<br>
+![CSS][css-shield]<br>
+![HTML][html-shield]<br>
+![Javascript][javascript-shield]<br>
+![Favicon][favicon-shield]<br>
+![Rory Patrick Sheridan][rory-shield]
 
-## Contact
+## Media
 
-Please feel free to contact me at nicolecadman@icloud.com
+All hero images were downloaded from sources with a free license and do not require attribution. I chose images that matched with the logo to create a  The gallery images and logo were taken from the [Beau Belle Facebook Page ](XXX) (this was verbally authorised by the manager for use on my project). The images were resized and compressed using [Adobe Photoshop](https://www.adobe.com/products/photoshop.html). The favicon media at the footer was generated from the stock images on the [Favicon Website](https://favicon.io). The pricing guide was created on [Canva Website](https://www.canva.com/en_gb/) using a free price list template. Lastly, I used [Adobe Dreamweaver](https://www.adobe.com/uk/products/dreamweaver.html) to create the wireframes for this site. 
 
+## Credits
+
+| Issue | Guidance | 
+| --------------- | --------------- | 
+| Help needed to create gallery | https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp | 
+| Tutorial on setting up EmailJS | https://www.youtube.com/watch?v=5EZsRnJpUNU | 
+| Favicon error | https://stackoverflow.com/questions/1321878/how-to-prevent-favicon-ico-requests?noredirect=1&lq=1 | 
+| Templated event listener quiz | https://stackoverflow.com/questions/27336182/javascript-event-listener-quiz | 
+| Event listener error help | https://stackoverflow.com/questions/26107125/cannot-read-property-addeventlistener-of-null | 
+| README accessibility & table templated| https://github.com/FlashDrag/barber-shop/blob/master/documentation/TESTING.md | 
+| README template | https://github.com/othneildrew/Best-README-Template | 
+| Lazy loading template | https://stackoverflow.com/questions/52682522/how-to-lazy-load-component-and-template | 
+| Lazy loading tutorial | https://www.youtube.com/watch?v=mC93zsEsSrg&t=534s |
+| Stock Images Adobe | https://stock.adobe.com/uk/ |
+| Stock Images Pexels | https://pexels.com/ |
 
 <!-- Links & Images --->
 
@@ -356,3 +363,4 @@ Please feel free to contact me at nicolecadman@icloud.com
 [html-shield]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
 [javascript-shield]: https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
 [favicon-shield]: https://img.shields.io/badge/-Favicon-blueviolet?&style=for-the-badge
+[rory-shield]: https://img.shields.io/badge/Rory%20Patrick%20Sheridan%20-MENTOR-lightgrey?style=for-the-badge&logo=closed
