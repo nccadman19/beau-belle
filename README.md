@@ -9,6 +9,44 @@
 
 ![Markups](assets/images/readme/mockup-index.png)
 
+## Table of Contents 
+
+- [**Project Goals**](#project-goals)
+  - [Business Goals](#business-goals)
+  - [User Goals](#user-goals)
+- [**User Experience UX**](#user-experience-ux)
+  - [Strategy](#strategy)
+  - [Wireframes](#wireframes)
+  - [Surface](#surface)
+  - [Colormind](#colormind)
+- [**Features**](#features)
+    - [NavBar & Footer](#navbar-&-footer)
+    - [Home](#home)
+    - [Gallery](#gallery)
+    - [Pricing](#pricing)
+    - [Quiz](#quiz)
+    - [Quiz Layout](#quiz-layout)
+    - [Contact Us](#contact-us)
+- [**Testing**](#testing)
+    - [Responsiveness](#responsiveness)
+    - [Functionality Testing](#functionality-testing)
+    - [Compatibility Testing](#compatibility-testing)
+    - [Resolved Bugs](#resolved-bugs)
+    - [Unresolved Bugs](#unresolved-bugs)
+    - [Contact Us](#contact-us)
+- [**Usability Testing**](#usability-testing)
+    - [Navigation](#navigation)
+    - [Accessibility](#accessibility)
+- [**Github Deployment**](#github-deployment)
+    - [Preparation](#preparation)
+    - [Instructions](#instructions)
+    - [Installation](#installation)
+- [**Acknowledgements**](#acknowledgements)
+    - [Built With](#built-with)
+    - [Media](#media)
+    - [Installation](#installation)
+    - [Credits](#credits)
+
 ## Project Goals
 
 ### Business Goals
@@ -24,6 +62,8 @@
 2. To view the pricing of the treaments 
 3. To get help with what treament service they would like if they are unsure with the gallery page and the quiz
 4. To contact the salon through various channels once they have decided what treatment option they would like 
+
+[Back to top](#table-of-contents)
 
 # User Experience UX
 
@@ -66,6 +106,8 @@ Using the colormind palette on the Beau Belle Logo I selected the colours from t
 ![Colormind](assets/images/readme/colormind.png)
 
 I used Google fonts 'Montserrat', I felt 'Montserrat' was very easy to read and looks professional.
+
+[Back to top](#table-of-contents)
 
 ## Features
 --------------
@@ -140,6 +182,8 @@ Features:
 3. The contact number and email of the salon will also be available here for customers to book an appointment
 
 ![Contact Us Mockup](assets/images/readme/mockup-contact.png)
+
+[Back to top](#table-of-contents)
 
 ## Testing 
 ------------
@@ -231,12 +275,13 @@ The website was tested on the following devices:
 
 ### Unresolved Bugs
 
-2 errors in the contact section on JSLint as follows:
+| Area | Issue | Comments |
+| --------------- | --------------- | --------------- | 
+| JSLint | One undefined variable: Line 15	emailjs | These are both being used in the contact.html but are not visible in this javascript code. 
+| JSLint | One unused variable: Line 1	sendMail | These are both being used in the contact.html but are not visible in this javascript code. 
+| PageSpeed Insights | Eliminate render blocking resources | I have tried creating a critical path to no avail, ran out of time to fix this. 
 
-* One undefined variable: Line 15	emailjs
-* One unused variable: Line 1	sendMail
-
-These are both being used in the contact.html but are not visible in this javascript code. 
+[Back to top](#table-of-contents)
 
 ## Usability Testing 
 ------------
@@ -283,6 +328,8 @@ Desktop          |  Mobile
 Desktop          |  Mobile
 :-------------------------:|:-------------------------:
 ![Pricing Page Lighthouse Desktop](assets/images/readme/lighthouse/contact-desktop.png)  |  ![Index Page Lighthouse Mobile](assets/images/readme/lighthouse/contact-mobile.png)
+
+[Back to top](#table-of-contents)
 
 # Github Deployment
 
@@ -341,6 +388,8 @@ All hero images were downloaded from sources with a free license and do not requ
 | Lazy loading tutorial | https://www.youtube.com/watch?v=mC93zsEsSrg&t=534s |
 | Stock Images Adobe | https://stock.adobe.com/uk/ |
 | Stock Images Pexels | https://pexels.com/ |
+
+[Back to top](#table-of-contents) 
 
 <!-- Links & Images --->
 
