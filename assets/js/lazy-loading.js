@@ -1,6 +1,6 @@
   const thumbImgs = document.querySelectorAll('#gallery img');
   thumbImgs.forEach(img => {
-    img.style.filter = 'blur(10px)';
+    img.style.filter = 'blur(5px)';
   });
 
   const lazyloadImages = document.querySelectorAll('.lazyload');

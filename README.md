@@ -332,6 +332,8 @@ https://github.com/FlashDrag/barber-shop/blob/master/documentation/TESTING.md
 README template
 https://github.com/othneildrew/Best-README-Template
 
+Lazy Loading Template
+https://stackoverflow.com/questions/52682522/how-to-lazy-load-component-and-template
 
 ## Contact
 
