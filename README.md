@@ -24,7 +24,7 @@ This website is made up of the following sections:
 
 ### Pricing 
 
-1. A pdf document with a breakdown on pricing for the nail services provided by beau belle
+1. A pdf document with a breakdown of pricing for the nail services provided by beau belle
 
 ### Quiz 
 
@@ -40,6 +40,7 @@ There are so many different types of gel treatments in the world of beauty that 
 2. A place where people can request to book with the salon if they don't want to call and book an appointment 
 3. The contact number and email of the salon will also be available here for customers to book an appointment
 
+### Goals
 
 My business goals for this website are:
 
@@ -57,11 +58,17 @@ The user goals of this website are:
 
 ## Built With 
 
-* Bootstrap
-* JQuery
-* EmailJS
-* Favicon
-* Google Fonts
+![Bootstrap][bootstrap-shield]<br>
+![JQuery][jquery-shield]<br>
+![GoogleAPI][google-shield]<br>
+![FontAwesome][fonts-shield]<br>
+![GoogleFonts][googlefont-shield]<br>
+![Photoshop][photo-shield]<br>
+![Dreamweaver][dream-shield]<br>
+![CSS][css-shield]<br>
+![HTML][html-shield]<br>
+![Javascript][javascript-shield]<br>
+![Favicon][favicon-shield]<br>
 
 # UX
 
@@ -338,3 +345,14 @@ Please feel free to contact me at nicolecadman@icloud.com
 [linkedin-url]: https://uk.linkedin.com/in/nicole-cadman-69a606230
 [website-shield]: https://img.shields.io/badge/VISIT%20WEBSITE-HERE-green?style=for-the-badge&logo=closed
 [website-url]: https://nccadman19.github.io/beau-belle/
+[bootstrap-shield]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[jquery-shield]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[google-shield]: https://img.shields.io/badge/-Google%20Workspace-grey?logo=google&style=for-the-badge
+[fonts-shield]: https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white
+[googlefont-shield]: https://img.shields.io/badge/-Google%20Fonts-grey?logo=google&style=for-the-badge
+[photo-shield]: https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=black
+[dream-shield]: https://img.shields.io/badge/Adobe%20Dreamweaver-072401?style=for-the-badge&logo=Adobe%20Dreamweaver&logoColor=34F400
+[css-shield]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+[html-shield]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[javascript-shield]: https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
+[favicon-shield]: https://img.shields.io/badge/-Favicon-blueviolet?&style=for-the-badge
