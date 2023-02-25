@@ -152,18 +152,6 @@ This is a contact page for people to contact us regarding further information or
 
 ![Contact Us Mockup](assets/images/readme/mockup-contact.png)
 
-### Media
-
-Hero image - is designed in calm and feminine colours to create a warm welcome to customers 
-
-Galley - contains good quality clear images of a selection of nail art that was created by the beauticians at Beau Belle Salon 
-
-Pricing - contains 2 images that comprise of the pricing for nails and feet at the salon
-
-Quiz - contains 1 clear image of nail art
-
-Contact section - contains a faded image to ensure clear visability of the contact information. I decided on this background to not distract customers from making a booking query 
-
 ## Functionality Testing 
 ------------
 ### Responsiveness 
@@ -184,7 +172,7 @@ These tests have been completed on mobile and desktop.
 | Pricing | Image Grid Responsiveness | No Issues |
 | Quiz | Page Responsiveness | No Issues |
 | Quiz | Quiz Functions on One Runthrough | No Issues |
-| Quiz | Quiz Functions on Subsequent Runthrough | Current Bug |
+| Quiz | Quiz Functions on Subsequent Runthrough | No Issues |
 | Contact | Page Responsiveness | No Issues |
 | Contact | Contact Form Submits | No Issues |
 | Contact | Contact Form Clears | No Issues |
