@@ -290,6 +290,7 @@ The website was tested on the following devices:
 | JSLint | One undefined variable: Line 15	emailjs | These are both being used in the contact.html but are not visible in this javascript code. 
 | JSLint | One unused variable: Line 1	sendMail | These are both being used in the contact.html but are not visible in this javascript code. 
 | PageSpeed Insights | Eliminate render blocking resources | I have tried creating a critical path to no avail, ran out of time to fix this. 
+| 404 Redirect | Redirect 404 errors to homepage | After a final readthrough of the assessment I noticed that this was requested but did not have time to sucessfully complete this. 
 
 [Back to top](#table-of-contents)
 
