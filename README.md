@@ -59,8 +59,8 @@
 ### User Goals
 
 1. To be able to learn more about the salon
-2. To view the pricing of the treaments 
-3. To get help with what treament service they would like if they are unsure with the gallery page and the quiz
+2. To view the pricing of the treatments 
+3. To get help with what treatment service they would like if they are unsure with the gallery page and the quiz
 4. To contact the salon through various channels once they have decided what treatment option they would like 
 
 [Back to top](#table-of-contents)
@@ -97,7 +97,7 @@ Wireframes
 ## Surface
 --------------
 
-I chose a colour palette based around the logo colours, I put the image into a search engine and copied the colour of the lofo. I wanted this to be reflected on the website. I paired these colours with a dark grey and black font to stand out around the base colour. 
+I chose a colour palette based around the logo colours, I put the image into a search engine and copied the colour of the logo. I wanted this to be reflected on the website. I paired these colours with a dark grey and black font to stand out around the base colour. 
 
 ### Colormind
 
@@ -160,7 +160,7 @@ This page is an interactive quiz for users who are unsure on what treatment they
 
 Features:
 
-1. A page where users can complete a quiz to see what treament would be best suited to them 
+1. A page where users can complete a quiz to see what treatment would be best suited to them 
 2. The quiz will return treatment options to the user 
 3. The page will then let them retake the quiz or link to the contact option for them to either call, email or use the contact form to contact the salon
 
@@ -205,8 +205,8 @@ These tests have been completed on mobile and desktop.
 | Gallery | Image Grid Responsiveness | No Issues |
 | Pricing | Image Grid Responsiveness | No Issues |
 | Quiz | Page Responsiveness | No Issues |
-| Quiz | Quiz Functions on One Runthrough | No Issues |
-| Quiz | Quiz Functions on Subsequent Runthrough | No Issues |
+| Quiz | Quiz Functions on One Run Through | No Issues |
+| Quiz | Quiz Functions on Subsequent Run Through | No Issues |
 | Contact | Page Responsiveness | No Issues |
 | Contact | Contact Form Submits | No Issues |
 | Contact | Contact Form Clears | No Issues |
@@ -251,7 +251,7 @@ The website was tested on the following browsers:
 
 * Google Chrome
 * Safari 
-* Microsoft Egde
+* Microsoft Edge
 
 The site worked well across all browsers and discrepancies were not found.
 
@@ -275,7 +275,7 @@ The website was tested on the following devices:
 
 | Issue | Fix | 
 | --------------- | --------------- | 
-| Alt Tags not added to the gallery page | This error was easilt fixed by adding alt tags | 
+| Alt Tags not added to the gallery page | This error was easily fixed by adding alt tags | 
 | Spacing errors in code | Removed the checks of spacing between characters as unnecessary | 
 | Var errors | Replaced var errors with let which corrected this error | 
 | Missing ; | ; added to places where it was supposed to be | 
@@ -287,10 +287,10 @@ The website was tested on the following devices:
 
 | Area | Issue | Comments |
 | --------------- | --------------- | --------------- | 
-| JSLint | One undefined variable: Line 15	emailjs | These are both being used in the contact.html but are not visible in this javascript code. 
-| JSLint | One unused variable: Line 1	sendMail | These are both being used in the contact.html but are not visible in this javascript code. 
+| JSHint | One undefined variable: Line 15	emailjs | These are both being used in the contact.html but are not visible in this javascript code. 
+| JSHint | One unused variable: Line 1	sendMail | These are both being used in the contact.html but are not visible in this javascript code. 
 | PageSpeed Insights | Eliminate render blocking resources | I have tried creating a critical path to no avail, ran out of time to fix this. 
-| 404 Redirect | Redirect 404 errors to homepage | After a final readthrough of the assessment I noticed that this was requested but did not have time to sucessfully complete this. 
+| 404 Redirect | Redirect 404 errors to homepage | After a final readthrough of the assessment I noticed that this was requested but did not have time to successfully complete this. 
 
 [Back to top](#table-of-contents)
 
