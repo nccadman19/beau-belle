@@ -140,6 +140,7 @@ Features:
 
 1. A gallery of images of previous nail art completed by the beau belle salon
 2. This page will give inspiration images to people wanting to get their nails done
+3. This page has a lazy loading feature that loads the images in a lower quality with a blurred effect before appearing with the full quality image. 
 
 ![Gallery Mockup](assets/images/readme/mockup-gallery.png)
 
