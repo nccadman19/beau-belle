@@ -1,3 +1,4 @@
+// Credit (Details noted in README)
 function sendMail() {
     var name = document.getElementById("name").value;
     var email = document.getElementById("emailaddress").value;

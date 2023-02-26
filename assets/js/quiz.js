@@ -1,3 +1,4 @@
+// Credit (Details noted in README)
 window.onload=function() {
     let fakeTipsButton = document.getElementById("fake-tips");
     let naturalNailsButton = document.getElementById("natural-nails");

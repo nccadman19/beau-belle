@@ -1,3 +1,4 @@
+  // Lazy Loading Credit (Details in README)
   const thumbImgs = document.querySelectorAll('#gallery img');
   thumbImgs.forEach(img => {
     img.style.filter = 'blur(5px)';
