@@ -230,10 +230,19 @@ I did not add alt tags to the gallery page and this caused a few errors that wer
 | Contact | Validator CSS | 0 Errors |
 | Contact | JSHint | 2 Errors |
 ------------
+#### Validator HTML
+-------
 ![ValidatorHTML](assets/images/readme/validator1.png)
+#### Validator CSS
+-------
 ![ValidatorCSS](assets/images/readme/validator2.png)
+#### JSLint
+-------
 ![JSLint Testing](assets/images/readme/jslint.png)
-![JSHint Testing](assets/images/readme/XXX) 
+#### JSHint
+-------
+![JSHint Testing](assets/images/readme/jshint-quiz.png) 
+![JSHint Testing](assets/images/readme/jshint-email.png) 
 
 ### Compatibility Testing 
 
