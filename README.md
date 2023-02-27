@@ -404,7 +404,7 @@ All hero images were downloaded from sources with a free license and do not requ
 
 <!-- Links & Images --->
 
-[issues-shield]: https://img.shields.io/badge/ISSUES-0%20OPEN-yellow?style=for-the-badge&logo=closed
+[issues-shield]: https://img.shields.io/badge/ISSUES-1%20OPEN-yellow?style=for-the-badge&logo=closed
 [issues-url]: https://github.com/nccadman19/beau-belle/issues
 [closed-shield]: https://img.shields.io/badge/CLOSED%20ISSUES-3%20CLOSED-blue?style=for-the-badge&logo=closed
 [closed-url]: https://github.com/nccadman19/beau-belle/issues?q=is%3Aissue+is%3Aclosed
