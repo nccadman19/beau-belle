@@ -1,13 +1,27 @@
-// Credit (Details noted in README)
 function sendMail() {
     var name = document.getElementById("name").value;
     var email = document.getElementById("emailaddress").value;
     var message = document.getElementById("message").value;
     
     if (!name || !email || !message) {
-        alert("All fields are required.");
+        var modal = document.createElement("div");
+        modal.className = "modal";
+        var modalContent = document.createElement("div");
+        modalContent.className = "modal-content";
+        var modalText = document.createTextNode("All fields are required.");
+        modalContent.appendChild(modalText);
+        var modalButton = document.createElement("button");
+        modalButton.className = "modal-button";
+        modalButton.innerHTML = "OK";
+        modalButton.addEventListener("click", function() {
+          document.body.removeChild(modal);
+        });
+        modalContent.appendChild(modalButton);
+        modal.appendChild(modalContent);
+        document.body.appendChild(modal);
         return;
-    }
+      }
+      
     var params = {
         from_name : name,
         from_email : email,
